@@ -10,7 +10,7 @@
             box-sizing: border-box;
         }
 
-        body {
+  body {
             font-family: 'Arial', sans-serif;
             background-color: #121212;
             color: #f4f4f4;
@@ -18,6 +18,13 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            max-width: 100%;        
+            width: 100%;            
+            height: auto;           
+            max-height: 80vh;       
+            object-fit: cover; 
+
+            
         }
 
         /* Header styling */
@@ -102,10 +109,9 @@
 <body style ="margin-top: 50px;margin-bottom: 50px;margin-left: 50px;margin-right: 50px;">
   <!-- Header setion -->
    <header>
-       <div style="text-align:center;padding-bottom: 20px;">
-    <img src="Movie hub.jpeg">
-      <h1 style="font-size:50px;text-align:center;">Trending Movies Review Hub</h1>
-      </div>
+      <div style="text-align: center; padding-bottom: 20px; margin-top: 20px; margin-left: 20px; margin-right: 20px;">
+    <img src="Movie hub.jpeg" alt="Movie Hub" style="width: 100%; max-width: 600px;">
+</div>
   <div style="text-align:center;font-size:25px">
   <a style="padding-right: 20px;" href="home.html">Home</a>
   <a style="padding-right: 20px;" href="aboutus.html">About Us</a>

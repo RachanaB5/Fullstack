@@ -29,14 +29,7 @@
         }
 
         /* Header styling */
-                .web-logo {
-            max-width: 100%;        
-            width: 100%;            
-            height: auto;           
-            max-height: 80vh;       
-            object-fit: cover;      
-    }
-            
+                    
         header {
             background: linear-gradient(135deg, #ff5757, #ff914d);
             color: #fff;
@@ -117,9 +110,10 @@
 <body style ="margin-top: 50px;margin-bottom: 50px;margin-left: 50px;margin-right: 50px;">
   <!-- Header setion -->
    <header>
-       <div class="web-logo" style="text-align:center;padding-bottom: 20px;margin-top: 20px;margin-left: 20px;margin-right: 20px;">
-    <img src="Movie hub.jpeg">
-      </div>
+       <div style="text-align: center; padding-bottom: 20px; margin-top: 20px; margin-left: 20px; margin-right: 20px;">
+    <img src="Movie hub.jpeg" alt="Movie Hub" style="width: 100%; max-width: 600px;">
+</div>
+
  <div style ="margin-bottom: 50px;margin-left: 30px;margin-right: 30px;">
  <h1 style="font-size:50px;text-align:center;">Trending Movies Review Hub</h1>
     <p style="font-size:30px;text-align:center;line-height:30px;margin-left: 20px;margin-right: 20px;margin-bottom: 50px;"> Welcome to our Movie hub!<br>Search trending movies and see its reviews or Submit the reviews to the movies you like!</p>
@@ -212,7 +206,8 @@
   </p></div><br><br>
   </section>
   <!-- Review Submission Form -->
-    <section >
+    <section class="reviews">
+    <div class="review-card">
         <h2 style="font-size:30px;">Submit Your Review</h2><br>
         <form style="font-size:20px;">
             <label for="title">Title:</label>
@@ -225,6 +220,7 @@
             <textarea id="review" name="review" rows="4" required></textarea><br><br>
 
             <button style = "font-size:20px;background-color:red;" type="submit"><span style="color:white">Submit Review</button>
+            </div>
         </form>
     </section>
 
