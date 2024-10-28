@@ -4,17 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trending Movie review</title>
   <style>
-   *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #121212;
-            color: #f4f4f4;
-            line-height: 1.6;
+   body {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -22,94 +12,22 @@
             width: 100%;            
             height: auto;           
             max-height: 80vh;       
-            object-fit: cover;
-             
-            }
+            object-fit: cover; 
+
             
-        /* Header styling */
-        header {
-            background: linear-gradient(135deg, #ff5757, #ff914d);
-            color: #fff;
-            width: 100%;
-            text-align: center;
-            padding: 2rem 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin-bottom: 2rem;
         }
+        </style>
 
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            font-style: italic;
-        }
-
-        /* Review card section */
-        .reviews {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 90%;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .review-card {
-            background-color: #1e1e1e;
-            border-radius: 10px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-            padding: 1.5rem;
-            width: 100%;
-            margin: 1rem 0;
-            transition: transform 0.3s ease;
-        }
-
-        .review-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .review-card h2 {
-            color: #ff914d;
-            font-size: 1.8rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .review-card p {
-            margin: 0.5rem 0;
-        }
-
-        .review-card .rating {
-            font-size: 1.2rem;
-            color: #ffd700;
-            margin-bottom: 1rem;
-        }
-
-        /* Footer styling */
-        footer {
-            background-color: #333;
-            color: #f4f4f4;
-            width: 100%;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        footer p {
-            font-size: 0.9rem;
-        }
-    </style>
-
+  
   </head>
 <body style ="margin-top: 50px;margin-bottom: 50px;margin-left: 50px;margin-right: 50px;">
   <!-- Header setion -->
-   <header>
-       <div style="text-align: center; padding-bottom: 20px; margin-top: 20px; margin-left: 20px; margin-right: 20px;">
-    <img src="Movie hub.jpeg" alt="Movie Hub" style="width: 100%; max-width: 600px;">
-</div>
+   <header style="background: linear-gradient(135deg, #ff5757, #ff914d);width: 100%;
+            text-align: center;">
+       
+       <img src="Movie hub.jpeg" alt="Movie Hub" style="width: 100%; max-width: 600px;padding-top:20px;">
+
+
  <div style ="margin-bottom: 50px;margin-left: 30px;margin-right: 30px;">
  <h1 style="font-size:50px;text-align:center;">Trending Movies Review Hub</h1>
     <p style="font-size:30px;text-align:center;line-height:30px;margin-left: 20px;margin-right: 20px;margin-bottom: 50px;"> Welcome to our Movie hub!<br>Search trending movies and see its reviews or Submit the reviews to the movies you like!</p>
@@ -118,7 +36,8 @@
   <a style="padding-right: 20px;" href="aboutus.html">About Us</a>
   <a style="padding-right: 20px;" href="contactus.html">Contact Us</a>
 </div>
-</header>
+
+  </header>
 <h2 style="font-size:30px">Contact Us</h2><br>
   <p style="font-size:20px;">Phone: <a href="tel:+918884749439"><span style="color:rgb(50, 201, 243)">+918884749439</span></a></p>
   <p style="font-size:20px">Email: <a href="mailto:rachanabhaskargowda05@gmail.com"><span style="color:rgb(50, 201, 243)">rachanabhaskargowda05@gmail.com</span></a></p>
