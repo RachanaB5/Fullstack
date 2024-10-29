@@ -1,39 +1,63 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trending Movie review</title>
+  <title>Trending Movie Review</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
-   body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            max-width: 100%;        
-            width: 100%;            
-            height: auto;           
-            max-height: 80vh;       
-            object-fit: cover; 
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
 
-            
-        }
-        </style>
+    /* Header styling */
+    header {
+      background: linear-gradient(135deg, #ff5757, #ff914d);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 2rem;
+    }
 
-  
-  </head>
-<body style ="margin-top: 50px;margin-bottom: 50px;margin-left: 50px;margin-right: 50px;">
-  <!-- Header setion -->
-   <header style="background: linear-gradient(135deg, #ff5757, #ff914d);width: 100%;
-            text-align: center;">
-       
-       <img src="Movie hub.jpeg" alt="Movie Hub" style="width: 100%; max-width: 600px;padding-top:20px;">
- <div style ="margin-bottom: 50px;margin-left: 30px;margin-right: 30px;">
- <h1 style="font-size:50px;text-align:center;">Trending Movies Review Hub</h1>
-    <p style="font-size:30px;text-align:center;line-height:30px;margin-left: 20px;margin-right: 20px;margin-bottom: 50px;"> Welcome to our Movie hub!<br>Search trending movies and see its reviews or Submit the reviews to the movies you like!</p>
-     <div style="text-align:center;font-size:25px;margin-left: 20px;margin-right: 20px;">
-  <a style="padding-right: 20px;" href="home.html">Home</a>
-  <a style="padding-right: 20px;" href="aboutus.html">About Us</a>
-  <a style="padding-right: 20px;" href="contactus.html">Contact Us</a>
-</div>
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+
+ footer {
+      background-color: #333;
+      color: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body class="container" style="margin-top: 50px;">
+  <!-- Header section -->
+  <header>
+    <img src="Movie hub.jpeg" alt="Movie Hub" class="img-fluid" style="max-width: 600px;">
+    <h1>Trending Movies Review Hub</h1>
+    <p>Welcome to our Movie hub!<br>Search trending movies and see their reviews or submit reviews for the movies you like!</p>
+    <div>
+      <a class="btn btn-link text-white" href="home.html">Home</a>
+      <a class="btn btn-link text-white" href="aboutus.html">About Us</a>
+      <a class="btn btn-link text-white" href="contactus.html">Contact Us</a>
+    </div>
   </header>
    
 <p style="font-size:30px;text-align:center;line-height:30px;margin-bottom: 50px;"> Welcome to MovieBuzz! We're a team of passionate movie enthusiasts dedicated to bringing you insightful and engaging movie reviews. Whether you’re a fan of thrillers, romance, or animated classics, we’ve got you covered. Our concise, spoiler-free reviews focus on storylines, performances, and visuals to help you decide your next watch. Dive into the world of cinema with us and discover hidden gems, timeless classics, and the latest blockbusters.</p>
